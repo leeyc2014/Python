@@ -1,0 +1,5 @@
+print("hello, world")
+msg = list(map(int, input().split()))
+print(msg)
+print(type(msg[0]))
+print(sum(msg))
